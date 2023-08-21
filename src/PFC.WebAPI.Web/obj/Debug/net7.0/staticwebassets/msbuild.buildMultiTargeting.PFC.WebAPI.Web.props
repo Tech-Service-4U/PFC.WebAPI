@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PFC.WebAPI.Web.props" />
+</Project>

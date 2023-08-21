@@ -1,0 +1,64 @@
+2023-07-20 22:19:59.636 +05:30 [INF] Registered 5 endpoints in 216 milliseconds.
+2023-07-20 22:19:59.810 +05:30 [INF] User profile is available. Using 'C:\Users\jiten\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-20 22:20:01.937 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-20 22:20:01.980 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2023-07-20 22:20:02.181 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ToDoItems] AS [t]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-07-20 22:20:02.327 +05:30 [INF] Now listening on: http://localhost:57679
+2023-07-20 22:20:02.328 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 22:20:02.329 +05:30 [INF] Hosting environment: Development
+2023-07-20 22:20:02.330 +05:30 [INF] Content root path: C:\Users\jiten\source\repos\PFC.WebAPI\src\PFC.WebAPI.Web
+2023-07-20 22:20:03.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/ - -
+2023-07-20 22:20:03.152 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-20 22:20:03.173 +05:30 [INF] Executing endpoint 'PFC.WebAPI.Web.Controllers.HomeController.Index (PFC.WebAPI.Web)'
+2023-07-20 22:20:03.184 +05:30 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PFC.WebAPI.Web.Controllers.HomeController (PFC.WebAPI.Web).
+2023-07-20 22:20:03.275 +05:30 [INF] Executing action method PFC.WebAPI.Web.Controllers.HomeController.Index (PFC.WebAPI.Web) - Validation state: "Valid"
+2023-07-20 22:20:03.281 +05:30 [INF] Executed action method PFC.WebAPI.Web.Controllers.HomeController.Index (PFC.WebAPI.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.24ms.
+2023-07-20 22:20:03.291 +05:30 [INF] Executing ViewResult, running view Index.
+2023-07-20 22:20:03.455 +05:30 [INF] Executed ViewResult - view Index executed in 166.4144ms.
+2023-07-20 22:20:03.462 +05:30 [INF] Executed action PFC.WebAPI.Web.Controllers.HomeController.Index (PFC.WebAPI.Web) in 275.7404ms
+2023-07-20 22:20:03.464 +05:30 [INF] Executed endpoint 'PFC.WebAPI.Web.Controllers.HomeController.Index (PFC.WebAPI.Web)'
+2023-07-20 22:20:03.483 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 22:20:03.486 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - -
+2023-07-20 22:20:03.488 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/ - - - 200 - text/html;+charset=utf-8 432.8246ms
+2023-07-20 22:20:03.489 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 5.3866ms
+2023-07-20 22:20:03.495 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/PFC.WebAPI.Web.styles.css?v=aSxZbNM7oCwn-eVc-JIIRJCYNkgKWNRjVm3kprbJxGA - -
+2023-07-20 22:20:03.507 +05:30 [INF] The file /PFC.WebAPI.Web.styles.css was not modified
+2023-07-20 22:20:03.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/PFC.WebAPI.Web.styles.css?v=aSxZbNM7oCwn-eVc-JIIRJCYNkgKWNRjVm3kprbJxGA - - - 304 - text/css 13.6696ms
+2023-07-20 22:20:03.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0168ms
+2023-07-20 22:20:06.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - -
+2023-07-20 22:20:06.884 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - - - 200 - text/html;charset=utf-8 114.9562ms
+2023-07-20 22:20:06.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 22:20:06.914 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.8425ms
+2023-07-20 22:20:06.917 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - -
+2023-07-20 22:20:06.930 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.1991ms
+2023-07-20 22:20:07.180 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - -
+2023-07-20 22:20:07.342 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 162.1465ms
+2023-07-20 22:20:13.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/Contributors - -
+2023-07-20 22:20:13.595 +05:30 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2023-07-20 22:20:13.772 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedBy], [c].[CreatedOn], [c].[DeletedBy], [c].[DeletedOn], [c].[LastModifiedBy], [c].[LastModifiedOn], [c].[Name]
+FROM [Contributors] AS [c]
+2023-07-20 22:20:13.912 +05:30 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2023-07-20 22:20:13.916 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/Contributors - - - 200 - application/json 322.1892ms

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33913.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.Core", "src\PFC.WebAPI.Core\PFC.WebAPI.Core.csproj", "{DB8867E8-D880-4DF6-800D-679152FC886E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.Infrastructure", "src\PFC.WebAPI.Infrastructure\PFC.WebAPI.Infrastructure.csproj", "{DEC69D16-5FF2-4D12-A85D-CF7ADA3D50DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.SharedKernel", "src\PFC.WebAPI.SharedKernel\PFC.WebAPI.SharedKernel.csproj", "{4B95371E-EBFB-4270-B591-59DBD3A7691A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.Web", "src\PFC.WebAPI.Web\PFC.WebAPI.Web.csproj", "{D894A58A-4063-4A6B-B891-E14347DE92E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.FunctionalTests", "tests\PFC.WebAPI.FunctionalTests\PFC.WebAPI.FunctionalTests.csproj", "{BF7F230B-2BDB-482F-9704-ADBBA10D2DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.IntegrationTests", "tests\PFC.WebAPI.IntegrationTests\PFC.WebAPI.IntegrationTests.csproj", "{89F53AFB-FEEE-49F5-B5D8-CABC0CC2D0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFC.WebAPI.UnitTests", "tests\PFC.WebAPI.UnitTests\PFC.WebAPI.UnitTests.csproj", "{94A3748D-B2B9-42DC-9D28-BC044E112E4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB8867E8-D880-4DF6-800D-679152FC886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8867E8-D880-4DF6-800D-679152FC886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8867E8-D880-4DF6-800D-679152FC886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8867E8-D880-4DF6-800D-679152FC886E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC69D16-5FF2-4D12-A85D-CF7ADA3D50DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC69D16-5FF2-4D12-A85D-CF7ADA3D50DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC69D16-5FF2-4D12-A85D-CF7ADA3D50DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC69D16-5FF2-4D12-A85D-CF7ADA3D50DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B95371E-EBFB-4270-B591-59DBD3A7691A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B95371E-EBFB-4270-B591-59DBD3A7691A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B95371E-EBFB-4270-B591-59DBD3A7691A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B95371E-EBFB-4270-B591-59DBD3A7691A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D894A58A-4063-4A6B-B891-E14347DE92E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D894A58A-4063-4A6B-B891-E14347DE92E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D894A58A-4063-4A6B-B891-E14347DE92E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D894A58A-4063-4A6B-B891-E14347DE92E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7F230B-2BDB-482F-9704-ADBBA10D2DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7F230B-2BDB-482F-9704-ADBBA10D2DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7F230B-2BDB-482F-9704-ADBBA10D2DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7F230B-2BDB-482F-9704-ADBBA10D2DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F53AFB-FEEE-49F5-B5D8-CABC0CC2D0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F53AFB-FEEE-49F5-B5D8-CABC0CC2D0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F53AFB-FEEE-49F5-B5D8-CABC0CC2D0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F53AFB-FEEE-49F5-B5D8-CABC0CC2D0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A3748D-B2B9-42DC-9D28-BC044E112E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A3748D-B2B9-42DC-9D28-BC044E112E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A3748D-B2B9-42DC-9D28-BC044E112E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3748D-B2B9-42DC-9D28-BC044E112E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {593D4030-70D3-42D7-B01A-B1A910E3E8CD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PFC.WebAPI.Web.props" />
+</Project>

@@ -1,0 +1,7 @@
+{
+  "PFC.WebAPI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Working\\UpWork\\PFCWebAPI\\src\\PFC.WebAPI.Core",
+  "PFC.WebAPI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Working\\UpWork\\PFCWebAPI\\src\\PFC.WebAPI.Infrastructure",
+  "PFC.WebAPI.SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Working\\UpWork\\PFCWebAPI\\src\\PFC.WebAPI.SharedKernel",
+  "PFC.WebAPI.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Working\\UpWork\\PFCWebAPI\\tests\\PFC.WebAPI.UnitTests",
+  "PFC.WebAPI.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Working\\UpWork\\PFCWebAPI\\src\\PFC.WebAPI.Web"
+}

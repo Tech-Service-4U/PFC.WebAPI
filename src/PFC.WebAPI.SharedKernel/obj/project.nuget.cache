@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DD9kuqeOsgtfwAp8iOhwQd6FOSdktpjPDn5sk9kHqi40FvQkH0VqW1aPgaWDzzBbdZLUPsJ4JB7kvGMmTZzc9A==",
+  "success": true,
+  "projectFilePath": "D:\\Working\\UpWork\\PFCWebAPI\\src\\PFC.WebAPI.SharedKernel\\PFC.WebAPI.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\ardalis.specification\\7.0.0\\ardalis.specification.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
